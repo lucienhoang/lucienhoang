@@ -4,8 +4,6 @@
 
 - Currently exploring Python through personal projects
 
-- Working with C, PHP, JavaScript & TypeScript
-
 - Building small projects to learn, explore, and solve real problems.
 
 - Feel free to reach out here on GitHub.
