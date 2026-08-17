@@ -2,10 +2,6 @@
 
 > I enjoy turning small everyday frustrations into simple software.
 
-- Currently exploring Python through personal projects
-
-- Building small projects to learn, explore, and solve real problems.
-
 - Feel free to reach out here on GitHub.
 
 ## Languages & Tools
