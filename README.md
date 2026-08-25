@@ -2,8 +2,6 @@
 
 > I enjoy turning small everyday frustrations into simple software.
 
-- Feel free to reach out here on GitHub.
-
 ## Languages & Tools
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
