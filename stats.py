@@ -74,7 +74,7 @@ def main():
         print(f"{language}: {pct:.1f}%")
 
     # Update READEME.md
-    # update_readme(sorted_langs)
+    update_readme(sorted_langs)
 
 
 if __name__ == "__main__":
