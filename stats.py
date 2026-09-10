@@ -1,19 +1,23 @@
+import os
+
 import requests
 
 USERNAME = "lucienhoang"
+TOKEN = os.environ.get("GH_TOKEN")
+HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 
 def get_user_repos(username):
     """Get all public repositories from a given user."""
     url = f"https://api.github.com/users/{username}/repos"
-    r = requests.get(url, timeout=10)
+    r = requests.get(url, headers=HEADERS, timeout=10)
     return r
 
 
 def get_repo_languages(username, language):
     """Get language byte breakdown for a single repository."""
     url = f"https://api.github.com/repos/{username}/{language}/languages"
-    r = requests.get(url, timeout=10)
+    r = requests.get(url, headers=HEADERS, timeout=10)
     return r
 
 
@@ -46,6 +50,12 @@ def update_readme(sorted_langs, readme_path="README.md"):
 
 def main():
     r = get_user_repos(USERNAME)
+
+    if r.status_code != 200:
+        print(f"Error fetching repos: status code {r.status_code}")
+        print(r.json())
+        return  # Stop
+
     repos = r.json()
 
     total_byte = {}

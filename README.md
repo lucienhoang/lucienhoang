@@ -7,8 +7,8 @@ I enjoy turning small everyday frustrations into simple software.
 <!--LANG-STATS-START-->
 | Language | Percentage |
 |---|---|
-| PHP | 53.9% |
-| Python | 18.2% |
+| PHP | 53.8% |
+| Python | 18.3% |
 | C++ | 15.0% |
 | CSS | 4.1% |
 | TypeScript | 4.0% |
