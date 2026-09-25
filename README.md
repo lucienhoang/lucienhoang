@@ -7,12 +7,12 @@ I enjoy turning small everyday frustrations into simple software.
 <!--LANG-STATS-START-->
 | Language | Percentage |
 |---|---|
-| PHP | 50.0% |
-| Python | 17.0% |
-| C++ | 16.0% |
+| PHP | 49.6% |
+| Python | 16.9% |
+| C++ | 15.9% |
 | CSS | 3.8% |
 | TypeScript | 3.7% |
-| Dart | 2.9% |
+| Dart | 3.6% |
 | JavaScript | 2.5% |
 | CMake | 1.7% |
 | C | 1.5% |
