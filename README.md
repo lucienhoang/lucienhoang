@@ -9,7 +9,7 @@ I enjoy turning small everyday frustrations into simple software.
 |---|---|
 | PHP | 43.2% |
 | Dart | 15.8% |
-| Python | 14.7% |
+| Python | 14.8% |
 | C++ | 13.9% |
 | CSS | 3.3% |
 | TypeScript | 3.2% |
