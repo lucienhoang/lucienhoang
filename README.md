@@ -1,4 +1,4 @@
-# Hi, I'm Khoa (Lucien) 
+# Hi, I'm Lucien Hoang
 
 I enjoy turning small everyday frustrations into simple software.
 
