@@ -1,8 +1,8 @@
-# Hi, I'm Lucien Hoang
+### Hi, I'm Lucien Hoang
 
 I enjoy turning small everyday frustrations into simple software.
 
-## Languages I Work With
+### Languages I Work With
 
 <!--LANG-STATS-START-->
 | Language | Percentage |
