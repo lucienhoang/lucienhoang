@@ -76,6 +76,10 @@ def main():
         for language, byte_count in total_byte.items()
     }
 
+    if grand_total == 0:
+        print("No language data found.")
+        return
+
     # Sort by percentage, descending.
     sorted_langs = sorted(percentage.items(), key=lambda item: item[1], reverse=True)
 
@@ -84,7 +88,7 @@ def main():
         print(f"{language}: {pct:.1f}%")
 
     # Update READEME.md
-    update_readme(sorted_langs)
+    update_readme(sorted_langs[:7])
 
 
 if __name__ == "__main__":
